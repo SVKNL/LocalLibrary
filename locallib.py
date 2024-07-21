@@ -208,5 +208,5 @@ def interaction(book_instance: Book, parameters_list: list, status_list: list):
             #print('Введите одну из указанных цифр')
             #interaction(book_instance, parameters_list, status_list)
 
-
-#interaction(book_instance, parameters_list, status_list)
+if __name__ == "__main__":
+ interaction(book_instance, parameters_list, status_list)
